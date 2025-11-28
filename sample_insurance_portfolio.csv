@@ -1,0 +1,4 @@
+contract_id,age,gender,policy_type,sum_assured,annual_premium,region,claim_history,policy_years,risk_score
+C0001,45,M,term,100000,650,North,0,3,0.12
+C0002,62,F,whole,200000,1800,East,1,12,0.58
+C0003,29,F,term,50000,220,South,0,1,0.08
