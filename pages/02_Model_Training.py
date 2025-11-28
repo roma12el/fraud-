@@ -42,9 +42,9 @@ else:
     C = st.slider('C (LogReg)', 0.01, 10.0, 1.0)
     model = LogisticRegression(C=C, max_iter=2000)
 
-# Prepare data
 dfp = basic_preprocess(df, drop_cols=['contract_id'])
-X = dfp[features]
+
+X = dfp.drop(columns=[target])
 y = dfp[target]
 
 if sampling != 'None':
